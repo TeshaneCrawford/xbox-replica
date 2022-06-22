@@ -1,6 +1,6 @@
-# ./
+# Xbox Replica
 
-This template should help get you started developing with Vue 3 in Vite.
+This is a clone of the Xbox website.
 
 ## Recommended IDE Setup
 
