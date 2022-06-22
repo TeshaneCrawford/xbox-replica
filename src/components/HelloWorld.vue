@@ -20,25 +20,18 @@ export default {
 </template>
 
 <style scoped>
-h1 {
-  font-weight: 500;
-  font-size: 2.6rem;
-  top: -10px;
-}
-
-h3 {
-  font-size: 1.2rem;
-}
-
-.greetings h1,
-.greetings h3 {
-  text-align: center;
-}
-
-@media (min-width: 1024px) {
-  .greetings h1,
-  .greetings h3 {
-    text-align: left;
+  fast-card {
+    padding: 16px;
+    display: flex;
+    flex-direction: column;
   }
-}
+
+  h2 {
+    font-size: var(--type-ramp-plus-5-font-size);
+    line-height: var(--type-ramp-plus-5-line-height);
+  }
+
+  fast-card > fast-button {
+    align-self: flex-end;
+  }
 </style>
